@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
 }
@@ -209,8 +209,8 @@ body {
   content: "";
   text-align: center;
   opacity: .5;
-  color: #000;
-  background-color: #fff;
+  color: #FBE58A;
+  background-color: #000;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-transition: all .3s ease-in-out;
@@ -229,7 +229,8 @@ body {
 .carousel .slick-prev, .carousel .slick-next {
   width: 50px;
   height: 50px;
-  background-color: #fff;
+  background-color: #000;
+  border-radius: 20%;
 }
 
 .carousel .slick-prev:hover, .carousel .slick-prev:focus, .carousel .slick-next:hover, .carousel .slick-next:focus {
@@ -239,8 +240,12 @@ body {
 }
 
 .carousel .slick-prev:before, .carousel .slick-next:before {
-  color: #000;
+  color: #ECC731;
   font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
 }
 
 .carousel .slick-next {
@@ -250,4 +255,4 @@ body {
 .carousel .slick-prev {
   left: -55px;
 }
-/*# sourceMappingURL=App.css.map */
+# sourceMappingURL=App.css.map */

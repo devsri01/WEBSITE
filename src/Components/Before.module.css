@@ -1,0 +1,20 @@
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.text {
+    flex-basis: 60%;
+
+}
+.Heading{
+    color:#521E86;
+    border-bottom:4px solid #FFC700;
+    width: 180px;
+    padding-bottom: 4px;
+}
+.image_ally {   
+    flex-basis: 50%;
+    height: 260px;
+    width: 260px;
+}

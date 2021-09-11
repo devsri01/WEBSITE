@@ -1,0 +1,22 @@
+.design_head h1{
+    padding-left: 6%;
+    color: #521E86;
+}
+
+.design_text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.design_text div{
+    flex-basis: 55%;
+}
+
+.image_ally{
+    width: 250px;
+    height: 300px;
+    border-radius: 15.75px;
+    flex-basis: 25%;
+    float: right;
+}
